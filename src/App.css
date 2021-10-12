@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/**************************************** NavBar items ****************************************/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  /* padding-right: 1%;
+  padding-left: 3%; */
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.pageLogo {
+  width: 50%;
+}
+
+.pageLogo img {
+  cursor: pointer;
+  width: 150px;
+  user-select: none;
+}
+
+.navItems {
+  width: 50%;
+  display: flex;
+  padding-left: 15%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navItems h3 {
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  color: #f55b04;
+  transition: all 0.5s linear;
+  user-select: none;
+}
+
+.navItems h3:hover {
+  color: black;
+}
+
+/************************************** AboutUs items ********************************************/
+
+.adoutUs {
+  margin-top: 5%;
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutShalabh h2 {
+  font-family: Roboto Mono;
+  font-style: normal;
+  width: 50vw;
+  height: 58px;
+  font-weight: 500;
+  font-size: 5vw;
+  user-select: none;
+}
+
+.aboutShalabh h2 span {
+  font-family: Roboto Mono;
+  font-style: normal;
+  width: 415px;
+  height: 58px;
+  font-weight: 800;
+  color: #f55b04;
+  font-size: 5vw;
+}
+
+.aboutShalabh h4 {
+  padding-top: 5.5%;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.5vw;
+  width: 400px;
+  height: 46px;
+  user-select: none;
+}
+.aboutImage {
+  width: 500px;
+  user-select: none;
+}
+
+.aboutImage img {
+  width: 90%;
+  height: 100%;
+}
+
+.resumeButton {
+  cursor: pointer;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-top: 5%;
+  background-color: black;
+  width: 199px;
+  height: 40px;
+  border-radius: 10px;
+  user-select: none;
+}
+
+.downloadCV {
   color: white;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
 }
 
-.App-link {
-  color: #61dafb;
+/*************************************About Me********************************/
+
+.aboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutMeDiv {
+  margin-top: 0%;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: flex-center;
+}
+
+.aboutMeImage {
+  width: 20vw;
+  height: 20vw;
+  background-color: #f55b04;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -15px -2px 10px #e78267;
+  user-select: none;
+}
+
+.aboutMeImage img {
+  height: 15vw;
+  width: 15wv;
+}
+
+.aboutMeWriting {
+  width: 50%;
+  user-select: none;
+}
+
+.aboutMeWriting h2 {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.aboutMeWriting h2 span {
+  color: #f55b04;
+}
+
+.aboutMeWriting h4 {
+  padding-top: 2vw;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
 }
