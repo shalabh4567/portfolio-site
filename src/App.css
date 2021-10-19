@@ -1,15 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-.container {
+/* .container {
   margin-left: 5%;
   margin-right: 5%;
+} */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f55b04;
+  border-radius: 3rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ca4c03;
+}
+
+@keyframes onRightLoad {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes onLeftLoad {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /**************************************** NavBar items ****************************************/
 
 nav {
-  /* padding-right: 1%;
-  padding-left: 3%; */
+  padding-left: 5%;
+  padding-right: 5%;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,8 +88,9 @@ nav {
 /************************************** AboutUs items ********************************************/
 
 .adoutUs {
+  padding-left: 5%;
+  padding-right: 5%;
   margin-top: 5%;
-  width: 100%;
   height: 65vh;
   display: flex;
   justify-content: space-between;
@@ -64,6 +105,7 @@ nav {
   font-weight: 500;
   font-size: 5vw;
   user-select: none;
+  animation: onLeftLoad 0.3s linear;
 }
 
 .aboutShalabh h2 span {
@@ -84,11 +126,13 @@ nav {
   font-size: 2.5vw;
   width: 400px;
   height: 46px;
+  animation: onLeftLoad 0.4s linear;
   user-select: none;
 }
 .aboutImage {
   width: 500px;
   user-select: none;
+  animation: onRightLoad 0.3s ease-out;
 }
 
 .aboutImage img {
@@ -107,6 +151,7 @@ nav {
   height: 40px;
   border-radius: 10px;
   user-select: none;
+  animation: onLeftLoad 0.5s linear;
 }
 
 .downloadCV {
@@ -119,6 +164,8 @@ nav {
 /*************************************About Me********************************/
 
 .aboutMe {
+  padding-left: 5%;
+  padding-right: 5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -143,6 +190,7 @@ nav {
   align-items: center;
   box-shadow: -15px -2px 10px #e78267;
   user-select: none;
+  animation: onLeftLoad 0.3s linear;
 }
 
 .aboutMeImage img {
@@ -172,4 +220,362 @@ nav {
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
+}
+
+/**************************************** Skills **********************************/
+
+.skillsMain {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.SkillsImage {
+  position: relative;
+  height: 30vw;
+  width: 100%;
+  background-color: #f55b04;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .skillsTag {
+  position: absolute;
+  top: 0;
+  right: 4%;
+  width: 7rem;
+  height: 3rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 20px 10px;
+}
+
+.skillsTag span {
+  color: white;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+} */
+
+.webDev {
+  position: relative;
+  height: 20vw;
+  width: 25vw;
+  user-select: none;
+}
+
+.webDevHeading {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  top: 0%;
+  left: 0%;
+  color: white;
+  font-family: Roboto Mono;
+  background-color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.webDevInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20vw;
+  width: 25vw;
+  background-image: url("./images/skillsBackGroundImage.jpeg");
+  transition: all 0.5s ease-in;
+  opacity: 0;
+}
+
+.webDevInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.webDevInner span {
+  color: white;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
+.webDevInner:hover {
+  opacity: 1;
+}
+
+.webDev img {
+  height: 20vw;
+  width: 25vw;
+}
+
+.electronics {
+  position: relative;
+  height: 20vw;
+  width: 25vw;
+  user-select: none;
+}
+
+.electronicsHeading {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  top: 0%;
+  left: 0%;
+  color: white;
+  font-family: Roboto Mono;
+  background-color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.electronicsInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20vw;
+  width: 25vw;
+  background-image: url("./images/skillsBackGroundImage.jpeg");
+  transition: all 0.5s ease-in;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 0;
+}
+
+.electronicsInner span {
+  color: white;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
+.electronicsInner:hover {
+  opacity: 1;
+}
+
+.electronics img {
+  height: 20vw;
+  width: 25vw;
+}
+
+.tools {
+  position: relative;
+  height: 20vw;
+  width: 25vw;
+  user-select: none;
+}
+
+.toolsHeading {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  top: 0%;
+  left: 0%;
+  color: white;
+  font-family: Roboto Mono;
+  background-color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.toolsInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20vw;
+  width: 25vw;
+  background-image: url("./images/skillsBackGroundImage.jpeg");
+  transition: all 0.5s ease-in;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 0;
+}
+
+.toolsInner span {
+  color: white;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
+.toolsInner:hover {
+  opacity: 1;
+}
+
+.tools img {
+  height: 20vw;
+  width: 25vw;
+}
+
+/******************************** Contact Me *************************/
+
+.contact-me {
+  height: 50vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+}
+
+.contactMeHeading h2 {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4rem;
+  color: #f55b04;
+}
+
+.contactMeDetails {
+  margin-top: 4rem;
+  display: flex;
+}
+
+.emailDetails {
+  margin-right: 1rem;
+  width: 21rem;
+  height: 4rem;
+  background: linear-gradient(
+    258.35deg,
+    #000000 -2.02%,
+    #8d3402 48.59%,
+    #f55b04 70.69%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.emailDetails h5 {
+  margin: 0 2% 0 3%;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.emailDetails h6 {
+  padding: 1% 2% 0 3%;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.phoneDetails {
+  width: 17rem;
+  height: 4rem;
+  background: linear-gradient(
+    258.35deg,
+    #000000 -2.02%,
+    #8d3402 48.59%,
+    #f55b04 70.69%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.phoneDetails h5 {
+  padding: 0 2% 0 3%;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.phoneDetails h6 {
+  padding: 1% 2% 0 3%;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/************************* Social Links *************************/
+
+.social-Links {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+
+.social-design {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 13rem;
+}
+
+.linkedin-logo {
+  width: 3rem;
+  height: 3rem;
+  background: #0077b5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkedin-logo i {
+  color: #ffffff;
+  font-size: x-large;
+}
+
+.gitHub-logo i {
+  font-size: 3rem;
+}
+
+.instagram-logo {
+  width: 3rem;
+  height: 3rem;
+  background: linear-gradient(
+    219.51deg,
+    #6b01b9 17.79%,
+    #6a01b9 28.06%,
+    #ba03a7 46.1%,
+    #f6640e 81.16%,
+    rgba(234, 234, 234, 0) 105.3%
+  );
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram-logo i {
+  color: #ffffff;
+  font-size: x-large;
 }
