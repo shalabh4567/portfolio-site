@@ -1,0 +1,593 @@
+.skillsMain {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.SkillsImage {
+  position: relative;
+  height: 30vw;
+  width: 100%;
+  background-color: #f55b04;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.webDev {
+  position: relative;
+  height: 20vw;
+  width: 25vw;
+  user-select: none;
+}
+
+.webDevHeading {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  top: 0%;
+  left: 0%;
+  color: white;
+  font-family: Roboto Mono;
+  background-color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.webDevInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20vw;
+  width: 25vw;
+  background-image: url("../images/skillsBackGroundImage.jpeg");
+  transition: all 0.5s ease-in;
+  opacity: 0;
+}
+
+.webDevInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.webDevInner span {
+  color: white;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
+.webDevInner:hover {
+  opacity: 1;
+}
+
+.webDev img {
+  height: 20vw;
+  width: 25vw;
+}
+
+.electronics {
+  position: relative;
+  height: 20vw;
+  width: 25vw;
+  user-select: none;
+}
+
+.electronicsHeading {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  top: 0%;
+  left: 0%;
+  color: white;
+  font-family: Roboto Mono;
+  background-color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.electronicsInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20vw;
+  width: 25vw;
+  background-image: url("../images/skillsBackGroundImage.jpeg");
+  transition: all 0.5s ease-in;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 0;
+}
+
+.electronicsInner span {
+  color: white;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
+.electronicsInner:hover {
+  opacity: 1;
+}
+
+.electronics img {
+  height: 20vw;
+  width: 25vw;
+}
+
+.tools {
+  position: relative;
+  height: 20vw;
+  width: 25vw;
+  user-select: none;
+}
+
+.toolsHeading {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  top: 0%;
+  left: 0%;
+  color: white;
+  font-family: Roboto Mono;
+  background-color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.toolsInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20vw;
+  width: 25vw;
+  background-image: url("../images/skillsBackGroundImage.jpeg");
+  transition: all 0.5s ease-in;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 0;
+}
+
+.toolsInner span {
+  color: white;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
+.toolsInner:hover {
+  opacity: 1;
+}
+
+.tools img {
+  height: 20vw;
+  width: 25vw;
+}
+
+/****************************** MEdia Queries ***************************/
+
+@media screen and (max-width: 400px) {
+  .skillsMain {
+    height: 105vh;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .SkillsImage {
+    position: relative;
+    height: 105vh;
+    width: 100%;
+    background-color: #f55b04;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .webDev {
+    position: relative;
+    height: 60vw;
+    width: 65vw;
+    user-select: none;
+  }
+
+  .webDevHeading {
+    position: absolute;
+    height: 60vw;
+    width: 65vw;
+    top: 0%;
+    left: 0%;
+    color: white;
+    font-family: Roboto Mono;
+    background-color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size:6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+  }
+
+  .webDevInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vw;
+    width: 65vw;
+    background-image: url("../images/skillsBackGroundImage.jpeg");
+    transition: all 0.5s ease-in;
+    opacity: 0;
+  }
+
+  .webDevInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .webDevInner span {
+    color: white;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.5vw;
+  }
+
+  .webDevInner:hover {
+    opacity: 1;
+  }
+
+  .webDev img {
+    height: 60vw;
+    width: 65vw;
+  }
+
+  .electronics {
+    position: relative;
+    height: 60vw;
+    width: 65vw;
+    user-select: none;
+  }
+
+  .electronicsHeading {
+    position: absolute;
+    height: 60vw;
+    width: 65vw;
+    top: 0%;
+    left: 0%;
+    color: white;
+    font-family: Roboto Mono;
+    background-color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+  }
+
+  .electronicsInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vw;
+    width: 65vw;
+    background-image: url("../images/skillsBackGroundImage.jpeg");
+    transition: all 0.5s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0;
+  }
+
+  .electronicsInner span {
+    color: white;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.5vw;
+  }
+
+  .electronicsInner:hover {
+    opacity: 1;
+  }
+
+  .electronics img {
+    height: 60vw;
+    width: 65vw;
+  }
+
+  .tools {
+    position: relative;
+    height: 60vw;
+    width: 65vw;
+    user-select: none;
+  }
+
+  .toolsHeading {
+    position: absolute;
+    height: 60vw;
+    width: 65vw;
+    top: 0%;
+    left: 0%;
+    color: white;
+    font-family: Roboto Mono;
+    background-color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+  }
+
+  .toolsInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vw;
+    width: 65vw;
+    background-image: url("../images/skillsBackGroundImage.jpeg");
+    transition: all 0.5s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0;
+  }
+
+  .toolsInner span {
+    color: white;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5.5vw;
+  }
+
+  .toolsInner:hover {
+    opacity: 1;
+  }
+
+  .tools img {
+    height: 60vw;
+    width: 65vw;
+  }
+}
+
+/************************ media for 500px ************************/
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .skillsMain {
+    height: 130vh;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .SkillsImage {
+    position: relative;
+    height: 130vh;
+    width: 100%;
+    background-color: #f55b04;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .webDev {
+    position: relative;
+    height: 60vw;
+    width: 65vw;
+    user-select: none;
+  }
+
+  .webDevHeading {
+    position: absolute;
+    height: 60vw;
+    width: 65vw;
+    top: 0%;
+    left: 0%;
+    color: white;
+    font-family: Roboto Mono;
+    background-color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size:6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+  }
+
+  .webDevInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vw;
+    width: 65vw;
+    background-image: url("../images/skillsBackGroundImage.jpeg");
+    transition: all 0.5s ease-in;
+    opacity: 0;
+  }
+
+  .webDevInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .webDevInner span {
+    color: white;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.5vw;
+  }
+
+  .webDevInner:hover {
+    opacity: 1;
+  }
+
+  .webDev img {
+    height: 60vw;
+    width: 65vw;
+  }
+
+  .electronics {
+    position: relative;
+    height: 60vw;
+    width: 65vw;
+    user-select: none;
+  }
+
+  .electronicsHeading {
+    position: absolute;
+    height: 60vw;
+    width: 65vw;
+    top: 0%;
+    left: 0%;
+    color: white;
+    font-family: Roboto Mono;
+    background-color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+  }
+
+  .electronicsInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vw;
+    width: 65vw;
+    background-image: url("../images/skillsBackGroundImage.jpeg");
+    transition: all 0.5s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0;
+  }
+
+  .electronicsInner span {
+    color: white;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.5vw;
+  }
+
+  .electronicsInner:hover {
+    opacity: 1;
+  }
+
+  .electronics img {
+    height: 60vw;
+    width: 65vw;
+  }
+
+  .tools {
+    position: relative;
+    height: 60vw;
+    width: 65vw;
+    user-select: none;
+  }
+
+  .toolsHeading {
+    position: absolute;
+    height: 60vw;
+    width: 65vw;
+    top: 0%;
+    left: 0%;
+    color: white;
+    font-family: Roboto Mono;
+    background-color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+  }
+
+  .toolsInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vw;
+    width: 65vw;
+    background-image: url("../images/skillsBackGroundImage.jpeg");
+    transition: all 0.5s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0;
+  }
+
+  .toolsInner span {
+    color: white;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5.5vw;
+  }
+
+  .toolsInner:hover {
+    opacity: 1;
+  }
+
+  .tools img {
+    height: 60vw;
+    width: 65vw;
+  }
+}
+
+/**************** media for 700px **************************/
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .skillsMain {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+  }
+}

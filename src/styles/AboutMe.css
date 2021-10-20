@@ -1,0 +1,269 @@
+.aboutMe {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.aboutMeDiv {
+  margin-top: 0%;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: flex-center;
+}
+
+.aboutMeImage {
+  width: 20vw;
+  height: 20vw;
+  background-color: #f55b04;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -15px -2px 10px #e78267;
+  user-select: none;
+  animation: onLeftLoad 0.3s linear;
+}
+
+.aboutMeImage img {
+  height: 15vw;
+  width: 15wv;
+}
+
+.aboutMeWriting {
+  width: 50%;
+  user-select: none;
+}
+
+.aboutMeWriting h2 {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.aboutMeWriting h2 span {
+  color: #f55b04;
+}
+
+.aboutMeWriting h4 {
+  padding-top: 2vw;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+/*******************media queries ***********/
+@media screen and (max-width: 400px) {
+  .aboutMe {
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 15%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+
+  .aboutMeDiv {
+    margin-top: 0%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .aboutMeImage {
+    order: 2;
+    margin-top: 10%;
+    width: 60vw;
+    height: 60vw;
+    background-color: #f55b04;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -15px -2px 10px #e78267;
+    user-select: none;
+    animation: onLeftLoad 0.3s linear;
+  }
+
+  .aboutMeImage img {
+    height: 50vw;
+    width: 50wv;
+  }
+
+  .aboutMeWriting {
+    order: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    user-select: none;
+  }
+
+  .aboutMeWriting h2 {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10vw;
+    width: 100%;
+    text-align: start;
+  }
+
+  .aboutMeWriting h2 span {
+    color: #f55b04;
+  }
+
+  .aboutMeWriting h4 {
+    padding-top: 2.5vw;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+}
+
+/************************* media for 500px **********************/
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .aboutMe {
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+
+  .aboutMeDiv {
+    margin-top: 0%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .aboutMeImage {
+    order: 2;
+    margin-top: 15%;
+    width: 60vw;
+    height: 60vw;
+    background-color: #f55b04;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -15px -2px 10px #e78267;
+    user-select: none;
+    animation: onLeftLoad 0.3s linear;
+  }
+
+  .aboutMeImage img {
+    height: 50vw;
+    width: 50wv;
+  }
+
+  .aboutMeWriting {
+    order: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    user-select: none;
+  }
+
+  .aboutMeWriting h2 {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10vw;
+    width: 100%;
+    text-align: start;
+  }
+
+  .aboutMeWriting h2 span {
+    color: #f55b04;
+  }
+
+  .aboutMeWriting h4 {
+    margin-top: 5%;
+    padding-top: 2.5vw;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+}
+
+/********************* media for 700px *******************************/
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .aboutMe {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  .aboutMeDiv {
+    margin-top: 0%;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: flex-center;
+  }
+
+  .aboutMeImage {
+    width: 35vw;
+    height: 35vw;
+    background-color: #f55b04;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -15px -2px 10px #e78267;
+    user-select: none;
+    animation: onLeftLoad 0.3s linear;
+  }
+
+  .aboutMeImage img {
+    height: 25vw;
+    width: 25wv;
+  }
+
+  .aboutMeWriting {
+    width: 55%;
+    user-select: none;
+  }
+
+  .aboutMeWriting h2 {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7.5vw;
+  }
+
+  .aboutMeWriting h2 span {
+    color: #f55b04;
+  }
+
+  .aboutMeWriting h4 {
+    padding-top: 2vw;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5vw;
+  }
+}

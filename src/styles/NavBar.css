@@ -1,0 +1,141 @@
+nav {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageLogo {
+  width: 50%;
+}
+
+.pageLogo img {
+  cursor: pointer;
+  width: 150px;
+  user-select: none;
+}
+
+.navItems {
+  width: 50%;
+  display: flex;
+  padding-left: 15%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navItems h3 {
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  color: #f55b04;
+  transition: all 0.5s linear;
+  user-select: none;
+}
+
+.navItems h3:hover {
+  color: black;
+}
+
+/****************************** MEdia Queries ***************************/
+
+@media screen and (max-width: 400px) {
+  nav {
+    margin-top: 2vw;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .pageLogo {
+    width: 30%;
+  }
+
+  .pageLogo img {
+    cursor: pointer;
+    width: 25vw;
+  }
+
+  .navItems {
+    width: 80%;
+    padding-left: 0;
+  }
+
+  .navItems h3 {
+    cursor: pointer;
+    font-family: "Roboto Mono", monospace;
+    color: #f55b04;
+    transition: all 0.5s linear;
+    user-select: none;
+    font-size: 0.9rem;
+  }
+
+  .navItems h3:hover {
+    color: black;
+  }
+}
+
+/********************** media for 500px **************************/
+
+@media screen and (min-width: 400px) and (max-width: 500px){
+  nav {
+    margin-top: 2vw;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .pageLogo {
+    width: 30%;
+  }
+
+  .pageLogo img {
+    cursor: pointer;
+    width: 25vw;
+  }
+
+  .navItems {
+    width: 80%;
+    padding-left: 0;
+  }
+
+  .navItems h3 {
+    cursor: pointer;
+    font-family: "Roboto Mono", monospace;
+    color: #f55b04;
+    transition: all 0.5s linear;
+    user-select: none;
+    font-size: 0.9rem;
+  }
+
+  .navItems h3:hover {
+    color: black;
+  }
+}
+
+/***************** Media for 700px *********************************/
+
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  nav {
+    margin-top: 2vw;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .pageLogo {
+    width: 30%;
+  }
+
+  .pageLogo img {
+    cursor: pointer;
+    width: 20vw;
+  }
+
+  .navItems {
+    width: 70%;
+    padding-left: 0;
+    justify-content: space-between;
+  }
+
+  .navItems h3 {
+    font-size: 1.2rem;
+  }
+}

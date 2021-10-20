@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-/* .container {
-  margin-left: 5%;
-  margin-right: 5%;
-} */
+
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -46,7 +43,7 @@
 
 /**************************************** NavBar items ****************************************/
 
-nav {
+/* nav {
   padding-left: 5%;
   padding-right: 5%;
 
@@ -83,11 +80,11 @@ nav {
 
 .navItems h3:hover {
   color: black;
-}
+} */
 
 /************************************** AboutUs items ********************************************/
 
-.adoutUs {
+/* .adoutUs {
   padding-left: 5%;
   padding-right: 5%;
   margin-top: 5%;
@@ -159,11 +156,11 @@ nav {
   font-family: Roboto Mono;
   font-style: normal;
   font-weight: normal;
-}
+} */
 
 /*************************************About Me********************************/
 
-.aboutMe {
+/* .aboutMe {
   padding-left: 5%;
   padding-right: 5%;
   display: flex;
@@ -220,11 +217,11 @@ nav {
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
-}
+} */
 
 /**************************************** Skills **********************************/
 
-.skillsMain {
+/* .skillsMain {
   height: 90vh;
   display: flex;
   align-items: center;
@@ -238,7 +235,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /* .skillsTag {
   position: absolute;
@@ -260,7 +257,7 @@ nav {
   font-weight: 500;
 } */
 
-.webDev {
+/* .webDev {
   position: relative;
   height: 20vw;
   width: 25vw;
@@ -278,7 +275,7 @@ nav {
   background-color: black;
   font-style: normal;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -338,7 +335,7 @@ nav {
   background-color: black;
   font-style: normal;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -395,7 +392,7 @@ nav {
   background-color: black;
   font-style: normal;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -432,11 +429,11 @@ nav {
 .tools img {
   height: 20vw;
   width: 25vw;
-}
+} */
 
 /******************************** Contact Me *************************/
 
-.contact-me {
+/* .contact-me {
   height: 50vh;
   padding-left: 5%;
   padding-right: 5%;
@@ -525,7 +522,7 @@ nav {
 
 /************************* Social Links *************************/
 
-.social-Links {
+/* .social-Links {
   margin-top: 5rem;
   display: flex;
   justify-content: start;
@@ -540,6 +537,7 @@ nav {
 }
 
 .linkedin-logo {
+  cursor: pointer;
   width: 3rem;
   height: 3rem;
   background: #0077b5;
@@ -555,10 +553,12 @@ nav {
 }
 
 .gitHub-logo i {
+  cursor: pointer;
   font-size: 3rem;
 }
 
 .instagram-logo {
+  cursor: pointer;
   width: 3rem;
   height: 3rem;
   background: linear-gradient(
@@ -578,4 +578,4 @@ nav {
 .instagram-logo i {
   color: #ffffff;
   font-size: x-large;
-}
+}  */
