@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .contactMeHeading h2 {
   font-family: Roboto Mono;
   font-style: normal;

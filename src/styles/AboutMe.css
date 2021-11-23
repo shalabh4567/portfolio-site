@@ -54,7 +54,7 @@
   font-family: Roboto Mono;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 /*******************media queries ***********/
@@ -62,7 +62,8 @@
   .aboutMe {
     padding-left: 4%;
     padding-right: 4%;
-    margin-top: 15%;
+    margin-top: 20%;
+    margin-bottom: 30%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -126,7 +127,7 @@
     font-family: Roboto Mono;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -137,6 +138,7 @@
     padding-left: 4%;
     padding-right: 4%;
     margin-top: 20%;
+    margin-bottom: 30%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -201,7 +203,7 @@
     font-family: Roboto Mono;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -264,6 +266,6 @@
     font-family: Roboto Mono;
     font-style: normal;
     font-weight: 500;
-    font-size: 5vw;
+    font-size: 3.5vw;
   }
 }

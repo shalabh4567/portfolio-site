@@ -19,13 +19,22 @@ const ContactMe = () => {
       <div className="social-Links">
         <div className="social-design">
           <div className="linkedin-logo">
-            <i className="fa fa-linkedin"></i>
+            <a
+              href="https://www.linkedin.com/in/shalabh-pandey4567/"
+              target="_blank" rel="noreferrer"
+            >
+              <i className="fa fa-linkedin"></i>
+            </a>
           </div>
           <div className="gitHub-logo">
-            <i className="fa fa-github"></i>
+            <a href="https://github.com/shalabh4567/" target="_blank" rel="noreferrer">
+              <i className="fa fa-github"></i>
+            </a>
           </div>
           <div className="instagram-logo">
-            <i className="fa fa-instagram"></i>
+            <a href="https://www.instagram.com/shalabh4567/" target="_blank" rel="noreferrer">
+              <i className="fa fa-instagram"></i>
+            </a>
           </div>
         </div>
       </div>

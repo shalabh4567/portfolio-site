@@ -11,7 +11,7 @@ const Skills = () => {
           <span>Skills</span>
         </div> */}
         <div className="webDev">
-          <img src={webDev} />
+          <img src={webDev} alt="webDev"/>
           <span className="webDevHeading">Web Development</span>
           <div className="webDevInner">
             <span>HTML | CSS</span>
@@ -20,7 +20,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="electronics">
-          <img src={electronics} />
+          <img src={electronics} alt="electronics" />
           <span className="electronicsHeading">Electronics</span>
           <div className="electronicsInner">
             <span>Arduino | ESP32</span>
@@ -28,11 +28,11 @@ const Skills = () => {
           </div>
         </div>
         <div className="tools">
-          <img src={tools} />
+          <img src={tools} alt="tools" />
           <span className="toolsHeading">Tools</span>
           <div className="toolsInner">
             <span>Git | Arduino IDE</span>
-            <span>Visual Studio code</span>
+            <span>VS Code | Figma</span>
           </div>
         </div>
       </div>

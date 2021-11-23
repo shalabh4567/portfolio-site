@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+a{
+  text-decoration: none;
+}
+
 .aboutShalabh h2 {
   font-family: Roboto Mono;
   font-style: normal;

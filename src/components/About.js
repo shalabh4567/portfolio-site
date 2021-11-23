@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
 import ShalabhFrontImage from "../images/ShalabhFrontImage.png";
+import PDF from "../images/Shalabh_Resume.pdf";
 
 const Typewriter = () => {
   const text = ["Web Developer", "Engineer", "Fast Learner"];
@@ -34,10 +35,14 @@ const About = () => {
   return (
     <div className="adoutUs">
       <div className="aboutShalabh">
-        <h2>I'm <span>Shalabh</span></h2>
+        <h2>
+          I'm <span>Shalabh</span>
+        </h2>
         <Typewriter />
         <div className="resumeButton">
-          <span className="downloadCV">Download CV</span>
+          <a href={PDF} target="_blank" rel="noreferrer" >
+            <span className="downloadCV">Download CV</span>
+          </a>
         </div>
       </div>
       <div className="aboutImage">
